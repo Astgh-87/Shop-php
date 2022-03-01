@@ -1,0 +1,47 @@
+.apranqner{
+  flex-wrap: wrap;
+   width: 100%;
+    height: auto;
+    padding: 2% 0% 7%;
+    display: flex;
+    justify-content: space-between;
+}  
+.card{
+    position: relative;
+    background: #adf;
+    width: 190px;
+    height: 272px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 2rem rgb(0 0 0 / 32%);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding:20px;
+    align-items: center;
+}
+.text {
+    font-size: 19px;
+    color: #ad125b;
+    font-family: Gilroy;
+    font-weight: bold;
+    padding-left: 6%;
+ }
+ .text h4{
+    color: red;
+}
+input[type='text'], submit, textarea {
+    width: 150%;
+    border: none;
+    outline: none;
+    border-bottom: solid 1px white;
+    display: block;
+    margin: 0 auto;
+    background-color: #ade;
+    font-size: 22px;
+}
+.card img{
+    height: 95px;
+    width: 95px;
+    position: relative;
+    background: #1E959B;
+ }

@@ -1,0 +1,219 @@
+.apranqner {
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    padding: 2% 3% 7%;
+    display: flex;
+    justify-content: space-between;
+    grid-gap: 2rem;
+}
+.card{
+    position: relative;
+    background: #adf;
+    width: 194px;
+    height: 290px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 2rem rgb(0 0 0 / 32%);
+    align-items: center;
+    margin: 2%;
+    text-align: center;
+    font-size: 19px;
+    color: #ad125b;
+    font-family: Gilroy;
+    font-weight: bold;
+}
+
+.acc-card h3, h4 {
+    font-size: 24px;
+ }
+.acc-card p{
+    font-size: 20px;
+    padding-top: 50px;
+}
+.card h1 {
+display: none;
+}
+.card img{
+    height: 95px;
+    width: 95px;
+    position: relative;
+    background: #1E959B;
+ }
+ .account-img img{
+    width: 40%;
+    position: relative;
+    background: #1E959B;
+ }
+.more{
+    border: 1px solid black;
+    width: 50%;
+    height: 9%;
+    margin: 0 auto;
+}
+.more:hover {
+    color:#340461;
+}
+.info{
+    position: relative;
+    background: #adf;
+    width: 249px;
+    height: 272px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 2rem rgb(0 0 0 / 32%);
+    padding: 20px;
+    align-items: center;
+}
+
+.apranqner-1{
+    width: 100%;
+    height: auto;
+    padding: 12% 14%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}  
+
+.plusminus {
+    width: 10%;
+}
+.account{
+    width: 67%;
+    height: auto;
+    padding: 0% 0% 10%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}  
+.acc-card, .account-img {
+    position: relative;
+    background: #adf;
+    width: 41%;
+    height: 316px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 2rem rgb(0 0 0 / 32%);
+    padding: 20px;
+    align-items: center;
+}
+.account-1 h1{
+    text-align: center;
+    padding: 5%;
+}
+.title h2{
+    text-align: center;
+    padding-top: 2%;
+    color: red;
+    font-size: 40px;
+}
+
+.input {
+    border: 1px solid #e1e1e1;
+    border-radius: 3px;
+    max-width: 40px;
+    float: left;
+    text-align: center;
+    margin: 0 5px;
+}
+.count {
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.btn, button {
+   font-size: 16px;
+}
+.add_item{
+    border: 1px solid #bac;
+    text-align: center;
+    width: 30%;
+    height: 9%;
+    margin-top: 8%;
+    background-color: #a680cd;
+}
+.card p1 {
+    border: 1px solid #bac;
+    text-align: center;
+    width: 40%;
+    height: 14%;
+    margin-top: 8%;
+}
+
+.card p1 button:hover {
+    color:#340461;
+}
+.add_item:hover {
+    color:#340461;
+}
+.btn btn-success{
+    height: 10px;
+}
+
+.img {
+  vertical-align: middle;
+}
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    width: auto;
+    padding: 12px;
+    margin-top: -21px;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    border-radius: 0 7px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 20px;
+  border-radius: 3px 0 0 3px;
+}
+.prev{
+    left: 29px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+.mySlides{
+   position: relative;
+    background: #adf;
+    width: 194px;
+    height: 290px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 2rem rgb(0 0 0 / 32%);
+    text-align: center;
+    font-size: 19px;
+    color: #ad125b;
+    font-family: Gilroy;
+    font-weight: bold;
+    counter-increment: carousel-cell;
+}
+.slideshow-container {
+   width: 100%;
+    height: auto;
+    padding: 3% 5%;
+    display: flex;
+    justify-content: space-between;
+    grid-gap: 1.5px;
+}
+.mySlides h4{
+    color: red;
+ }
+.mySlides h1 {
+display: none;
+}
+ .mySlides img{
+    height: 95px;
+    width: 95px;
+    position: relative;
+    background: #1E959B;
+ }

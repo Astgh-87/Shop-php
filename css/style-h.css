@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+    position: relative;
+    font-family: Arial,Helvetica,sans-serif;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    }
+
+.top-menu {
+   height: auto;
+   align-items: center;
+   background-color: #340461;
+   width: 100%;
+   font: 22px Arial,sans-serif;
+}
+
+.navbar>li{
+    padding: 25px 0;
+}
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar a {
+   text-decoration: none;
+   color: white;
+}
+.navbar img{
+   background-color: white;
+}
+.nav-link:hover {
+color: yellow;
+}
+
+.dropdown-li{
+    position: relative;
+}
+.dropdown-menu{
+display: none;
+position: absolute;
+width: 140px;
+background-color: rgba(0,0,0,1.7);
+text-align: center;
+ z-index: 1;
+}
+.dropdown-menu>li{
+    padding: 5px 0;
+    display: block;
+}
+.dropdown-li:hover  .dropdown-menu{
+    display: block;
+}
+.dropbtn {
+    display: inline-block;
+    font-size: inherit;
+     font-size:20px;
+}
+
+.shopping_list {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+.shopping_list td, .shopping_list th {
+    padding: 10px;
+    border: 1px solid #AAAAAA;
+    height: 95px;
+    width: 160px;
+    position: relative;
+  }
+.shopping_list img{
+    height: 95px;
+    width: 95px;
+    position: relative;
+}
+.del_item {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #f00;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    cursor: pointer;
+}

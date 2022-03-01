@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+    position: relative;
+    font-family: Arial,Helvetica,sans-serif;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    }.contact-info .p-0 {
+    border-right: 1px solid #e1e1e1;
+}
+.contact-box .contact-phone-icon {
+    background-position: -101px -502px;
+}
+.contact-box .contact-icon {
+    height: 27px;
+    width: 27px;
+    display: inline-block;
+    background: url(/static/media/sprite.172f7c5d.png) no-repeat scroll 0 0;
+}
+.container {
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.row {
+    width: 99%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    justify-content: space-evenly;
+}
+
+a {
+    cursor: pointer;
+    color: #3016a96e;
+}
+.pt-1, .py-1 {
+    padding-top: 4.25rem!important;
+}
+.pt-70, .ptb-70 {
+    padding: 99px;
+ }
+.align-center {
+    text-align: center;
+}
+.contact-box span {
+    font-size: 20px;
+    color: #c41f41;
+    line-height: 4.1;
+    }
+.title h2{
+    font-size: 26px;
+    color: red;
+    text-align: center;
+    padding-top: 3%;
+}
